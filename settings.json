@@ -57,7 +57,7 @@
   "prettier.printWidth": 800,
   "px-to-rem.px-per-rem": 10,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.external.windowsExec": "‪C:\\Program Files\\Git\\git-bash.exe",
+  "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-bash.exe",
   "workbench.iconTheme": "material-icon-theme",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.colorTheme": "Omni",
