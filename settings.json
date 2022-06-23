@@ -36,7 +36,7 @@
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
   "editor.formatOnSave": true,
-  "explorer.compactFolders" : false,
+  "explorer.compactFolders": false,
   "extensions.ignoreRecommendations" : true,
   "bracketPairColorizer.depreciation-notice": false,
   "git.ignoreMissingGitWarning": true,
@@ -64,9 +64,8 @@
   "code-runner.clearPreviousOutput": true,
   "code-runner.saveFileBeforeRun": true,
   "editor.rulers": [120],
-  "emmet.includeLanguages": {"javascript" : "javascriptreact"},
   "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
-  "liveSassCompile.settings.formats": [{"format": "compressed", "extensionName": ".min.css", "savePath": "/css/"}],
+  "liveSassCompile.settings.formats": [{ "format": "compressed", "extensionName": ".min.css", "savePath": "/css/" }],
   "emojisense.languages": {
     "markdown": true,
     "html": true,
@@ -76,4 +75,7 @@
     "json": true,
     "scminput": true
   },
+  "files.associations": {
+    "*.css": "css"
+  }
 }
