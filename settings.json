@@ -34,32 +34,34 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.formatOnSave": true,
+  "editor.fontWeight": 400,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
   "editor.codeActionsOnSave": {
-    //"source.organizeImports": true,
     "source.sortImports": true
   },
+
   "javascript.updateImportsOnFileMove.enabled": "always",
   "liveServer.settings.donotShowInfoMsg": true,
+  "material-icon-theme.activeIconPack": "react",
   "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  //"editor.fontFamily": "JetBrains Mono",
-  //"editor.fontFamily": "IBM Plex Mono",
-  "editor.fontFamily": "Fira Mono",
   "editor.fontSize": 14,
-  "editor.fontWeight": 400,
   "editor.lineHeight": 24,
   "editor.tabSize": 2,
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 140,
-  "editor.rulers": [140],
+  "window.commandCenter": true,
   "editor.colorDecorators": true,
-  "editor.fontLigatures": true,
   "explorer.compactFolders": false,
   "extensions.ignoreRecommendations": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "px-to-rem.px-per-rem": 10,
   "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
   "liveSassCompile.settings.formats": [
     { "format": "compressed", "extensionName": ".min.css", "savePath": "/css/" }
   ],
-  "workbench.colorTheme": "GitHub Dark Default"
+  "workbench.colorTheme": "Aura Dracula Spirit (Soft)"
 }
