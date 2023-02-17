@@ -33,26 +33,28 @@
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "editor.formatOnSave": true,
   "editor.fontWeight": 400,
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontLigatures": true,
-  "editor.codeActionsOnSave": {
-    "source.sortImports": true
-  },
-
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "material-icon-theme.activeIconPack": "react",
-  "workbench.iconTheme": "material-icon-theme",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "editor.fontSize": 14,
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontSize": 15,
   "editor.lineHeight": 24,
   "editor.tabSize": 2,
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 140,
-  "window.commandCenter": true,
   "editor.colorDecorators": true,
+  "editor.fontLigatures": true,
+  "editor.codeActionsOnSave": {
+    "source.sortImports": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "material-icon-theme.activeIconPack": "react",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  "window.commandCenter": true,
   "explorer.compactFolders": false,
   "extensions.ignoreRecommendations": true,
   "[jsonc]": {
@@ -63,5 +65,6 @@
   "liveSassCompile.settings.formats": [
     { "format": "compressed", "extensionName": ".min.css", "savePath": "/css/" }
   ],
-  "workbench.colorTheme": "Aura Dracula Spirit (Soft)"
+  "workbench.colorTheme": "Sweet Dracula",
+  "workbench.iconTheme": "bearded-icons"
 }
